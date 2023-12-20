@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>bruk av skjema</title>
+    </head>
+
+    <body>
+        <h1>bruk av skjema</h1>
+
+        <form method="POST" action="skjema.html">
+            Tekstboks (nanv, adresse, telefon)
+            <input type="text" name="tekst1" 
+            placeholder="Skriv inn navnet ditt"
+            value="Daoen jk">
+        <br><br>
+
+        passordboks
+        <input type="password" name="pass1" value="">
+        
+        Sjekkboks
+        <input type="checkbox" name="sjekk1" value="1"> ja
+        <input type="checkbox" name="sjekk2" value="1"> nei
+        <br><br>
+
+
+        radioknapp
+        <input type="radio" name="valg" value="1"> ja
+        <input type="radio" name="valg" value="2"> nei
+        <br><br>
+
+    Nedtrekksliste (dropdown liste)
+    <select name?alder>
+        <option value="10">Under 10</option>
+        <option value="20" selected>Mellom 10 og 20</option>
+        <option value="30">Over 20</option>
+    </select>
+
+
+    <br><br>
+
+    Tekstfelt (notatfelt)
+    <textarea name="notat" >Tekst</textarea>
+    <br><br>
+
+    Submitknapp (sende inn knapp)
+    <input type="submit" name="knapp1">
+
+    Resetknapp (slett alle data)
+    <input type="reset">
+
+</form>
+
+
+    </body>
+</html>
